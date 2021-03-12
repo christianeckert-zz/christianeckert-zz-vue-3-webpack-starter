@@ -3,5 +3,5 @@
 
 *work in progress*
 
-A basic Webpack configuration for Vue 3 projects.
+A basic Webpack configuration and file structure for Vue 3 projects.
 
