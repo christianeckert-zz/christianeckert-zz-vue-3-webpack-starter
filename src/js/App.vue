@@ -7,7 +7,7 @@
 export default {
     data() {
         return {
-            msg: "Hello 🌍 from Vue!",
+            msg: "Hello 🌍 from Vue 3!",
         }
     }
 }

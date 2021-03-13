@@ -13,6 +13,7 @@ const OUTPUT_PUBLIC_PATH = '/';
 const CSS_EXTRACT_FILENAME = 'css/styles.css';
 
 const WEBPACK_DEVSERVER_CONTENT_BASE = 'public';
+const WEBPACK_DEVSERVER_PORT = 5050;
 
 module.exports = (env = {}) => ({
   mode: env.prod ? 'production' : 'development',
@@ -94,7 +95,7 @@ module.exports = (env = {}) => ({
   devtool: 'source-map',
   devServer: {
       contentBase: path.join(__dirname, WEBPACK_DEVSERVER_CONTENT_BASE),
-      port: 5050,
+      port: WEBPACK_DEVSERVER_PORT,
       compress: true,
   }
 });
